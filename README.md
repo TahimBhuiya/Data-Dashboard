@@ -50,7 +50,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 While creating this app, I encountered several challenges. This included:
 
-**1. **Integrating the Superhero API**
+**1. Integrating the Superhero API**
 **Challenge:** One of the major challenges was integrating the third-party Superhero API to fetch data about superheroes dynamically. The API returned a variety of data in JSON format, which required parsing and handling errors, especially when the data was missing or incorrectly formatted.
 
 **Solution:** The data was parsed into a usable format, and error handling was implemented to ensure the app gracefully managed failed API calls or no results returned.
