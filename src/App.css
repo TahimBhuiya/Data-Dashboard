@@ -1,0 +1,133 @@
+/* Ensures proper layout alignment */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Apply the background image to the whole app */
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/020/354/328/large_2x/bright-colorful-comic-superhero-background-free-vector.jpg');
+  background-color: #f78438;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content area */
+.content {
+  /* background-color: rgba(148, 115, 115, 0.8); */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; /* Make the content wider */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Box for charts */
+.chart-box {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Make the chart container wider */
+  max-width: 1100px;
+}
+
+/* Superhero list container */
+.show-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 100%; /* Increase width */
+  max-width: 1100px;
+}
+
+/* Hero card styles */
+.show-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.show-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.show-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.show-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Filter inputs */
+/* Filter container - Centers everything with title */
+.filters {
+  display: flex;
+  justify-content: center; /* Centers everything horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 30px; /* Adds space between search input and sliders */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Search bar & button */
+.filters input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Filter inputs container */
+.filter-inputs {
+  display: flex;
+  align-items: center; /* Aligns sliders vertically */
+  gap: 20px; /* Adds spacing between sliders */
+}
+
+/* Ensure labels and sliders are aligned properly */
+.filter-inputs label {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers label text above slider */
+  text-align: center;
+  color: rgb(7, 6, 6);
+  font-weight: bold;
+}
+
+/* Sliders */
+.filter-inputs input[type="range"] {
+  width: 150px; /* Adjust width for better control */
+  cursor: pointer;
+}

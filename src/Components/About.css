@@ -1,0 +1,25 @@
+.about-container {
+    max-width: 1000px; /* Increased width */
+    margin: 20px auto 50px auto; /* Adjusted top margin to move the box up */
+    padding: 40px; /* Increased padding */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    min-height: 500px; /* Set a minimum height */
+}
+
+.about-container h1,
+.about-container h2 {
+    color: #f78438;
+    font-size: 29px;
+}
+
+.about-container ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.about-container p {
+    font-size: 18px; /* Increase font size for better readability */
+}
