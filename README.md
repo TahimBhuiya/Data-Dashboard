@@ -1,16 +1,14 @@
-# Web Development Project 6 - *Data Dashboard Part 2*
+# Data Dashboard App
 
 Submitted by: 
 
 **Tahim Bhuiya**
 
-**Z-Number: Z23493520**
-
 This web app: **is designed for superhero fans to explore, compare, and analyze the stats of various superheroes. You can search for your favorite heroes, filter them based on strength or intelligence, and view detailed information such as their power stats and abilities. The app pulls superhero data from the Superhero API and users can interact with these stats through dynamic sliders and view side-by-side comparisons between different superheroes.**
 
-Time spent: **6** hours spent in total
+Time spent: **8** hours spent in total
 
-## Required Features
+## Features
 
 The following **required** functionality is completed:
 
@@ -26,7 +24,7 @@ The following **required** functionality is completed:
   - Each chart should describe a different aspect of the dataset
 
 
-The following **optional** features are implemented:
+The following **additional** features are implemented:
 
 - [x] The site’s customized dashboard contains more content that explains what is interesting about the data 
   - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
