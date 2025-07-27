@@ -1,6 +1,6 @@
 # Data Dashboard App
 
-Creayted by: 
+Created by: 
 
 **Tahim Bhuiya**
 
